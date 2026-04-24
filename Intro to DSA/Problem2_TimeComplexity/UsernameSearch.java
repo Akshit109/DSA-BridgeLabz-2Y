@@ -12,7 +12,7 @@ public class UsernameSearch {
         Arrays.sort(userList);
         System.out.println("Binary Search: " + binarySearch(userList, target));
         
-        // Hash Set
+       
         HashSet<String> userSet = new HashSet<>(Arrays.asList(userList));
         System.out.println("Hash Search: " + hashSearch(userSet, target));
     }
